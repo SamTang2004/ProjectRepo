@@ -1,0 +1,1 @@
+Added new functions to test duty cycle intervals

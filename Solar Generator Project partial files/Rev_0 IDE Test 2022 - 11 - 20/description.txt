@@ -1,0 +1,5 @@
+This is the default "Blink" program.
+However, using this program is vital to our plans as our IDE is not intended for STM32 originally.
+We have to test and learn how to use the libraries we found on GitHub.
+The GitHub site:
+https://github.xkool.nl/stm32duino

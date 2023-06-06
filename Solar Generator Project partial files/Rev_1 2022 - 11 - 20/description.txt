@@ -1,0 +1,9 @@
+IRF9540N MOSFET is like a gate for eletronics.
+The gate is normally open.
+if the voltage through the Gate pin of the MOSFET is greater than the gate threshold voltage, the gate will close.
+We can regulate the average voltage that comes out of the gate with a timed signal.
+here the longer the gate pin is on, the less voltage the other side has.
+Thus the larger the duty variable is, the less voltage the other side has since the duty variable determines how long the gate pin remains open
+and the larger it is the longer the gate pin will open 
+
+We can use this to regulate the output voltage

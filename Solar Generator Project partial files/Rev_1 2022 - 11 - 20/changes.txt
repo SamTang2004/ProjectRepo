@@ -1,0 +1,3 @@
+This is the first attempt to code for the first schematic.
+We encountered some pin problems so the pins have to be changed.
+We ended up with digital 8 and analog 0 as the output and input respectively, so that is why we used d8 and a0 in the program.
