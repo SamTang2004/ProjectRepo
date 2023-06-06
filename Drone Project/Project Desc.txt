@@ -1,0 +1,8 @@
+Project planning phase
+1 duct fan engine with flying wing design
+STM32 drone
+GPS control
+Live video feed
+IR
+Object Tracking
+Laser emitter
