@@ -3,6 +3,6 @@ Project planning phase
 STM32 drone
 GPS control
 Live video feed
-IR
+IR tracking
 Object Tracking
-Laser emitter
+Laser emitter for guidance
