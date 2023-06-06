@@ -6,3 +6,23 @@ Live video feed
 IR tracking
 Object Tracking
 Laser emitter for guidance
+
+
+Materials:
+Foam board
+Fiberglass cloth
+Carbon Fibre tubes
+ESC - acquired
+Duct Fan Motor - acquired
+STM32 controller - acquired
+2x Servos (Aileron)
+1x camera
+2x servos (for rotating camera)
+1x laser module
+2x servos (for aiming laser)
+battery
+GPS module
+Gyro module
+Airspeed module
+RC transceiver
+RC controller
