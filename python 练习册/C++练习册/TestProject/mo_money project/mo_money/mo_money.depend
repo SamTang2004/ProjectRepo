@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1668097045 source:c:\users\12471\desktop\python Á·Ï°²á\c++Á·Ï°²á\testproject\mo_money project\mo_money\main.cpp
+	<iostream>
+	"History.hpp"
+	"Transaction.hpp"
+	"History_Transaction_definitions.cpp"
+	"project4.hpp"
+
+1633442960 c:\users\12471\desktop\python Á·Ï°²á\c++Á·Ï°²á\testproject\mo_money project\mo_money\history.hpp
+	<iomanip>
+	<iostream>
+	<string>
+	"Transaction.hpp"
+
+1633442960 c:\users\12471\desktop\python Á·Ï°²á\c++Á·Ï°²á\testproject\mo_money project\mo_money\transaction.hpp
+	<iomanip>
+	<iostream>
+	<string>
+
+1668534912 c:\users\12471\desktop\python Á·Ï°²á\c++Á·Ï°²á\testproject\mo_money project\mo_money\history_transaction_definitions.cpp
+	<cassert>
+	<iomanip>
+	<iostream>
+	"project4.hpp"
+	"History.hpp"
+	"Transaction.hpp"
+
+1633442960 c:\users\12471\desktop\python Á·Ï°²á\c++Á·Ï°²á\testproject\mo_money project\mo_money\project4.hpp
+	<cassert>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+
+1633442960 source:c:\users\12471\desktop\python Á·Ï°²á\c++Á·Ï°²á\testproject\mo_money project\mo_money\project4.cpp
+	<cassert>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+	"project4.hpp"
+
+1668709222 source:c:\users\12471\desktop\python Á·Ï°²á\c++Á·Ï°²á\testproject\mo_money project\mo_money\test_file.cpp
+	<cassert>
+	<iomanip>
+	<iostream>
+	"History.hpp"
+	"Transaction.hpp"
+	<iostream>
+	<cassert>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+
