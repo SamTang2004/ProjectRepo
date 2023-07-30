@@ -1,0 +1,62 @@
+Defining entity constraints...
+Nodal and facet constraints complete.
+Discrete model object containing 509 nodes and 1010 facets successfully restored.
+Generating surface mesh for 7 of 7 model surfaces.
+Mesh size range: 40 to 40.
+Surface meshing completed.
+Importing surface mesh...
+There were 7 surfaces specified at import.
+There were 1 parts specified at import.
+Imported model composed of 18562 nodes and 37112 facets.
+Import time: 0.214 seconds.
+Manifold test:
+Isolated facet count: 0.
+Indeterminant facet edges: 0.
+There were 0 nodes defining the trimming loop(s).
+Non-manifold facet count: 0.
+Manifold check time: 0.125 seconds.
+Imported model is well-connected.
+Imported model contains 2 unique volumes.
+Model successfully read and processed
+Instituting mesh sizes...
+Mesh sizes set.
+Instituting boundary layer mesh sizes...
+Boundary layer mesh sizes set.
+Generating volume mesh...
+Number of 3D Boundary Layers identified: 5
+Boundary Layer meshing
+Finding growth curves...
+Checking boundary growth curves...
+Checking intersecting layers...
+Edge triangulation
+Face triangulation
+Iteration 1: Normalized edge length range: 1.48185 .. 0.204774
+Final normalized edge length range: 1.44132 .. 0.204774
+Region triangulation
+Number of BL regions created = 273782
+Iteration 1: Normalized edge length range: 3.603 .. 0.129658
+Iteration 2: Normalized edge length range: 2.70011 .. 0.129658
+Iteration 3: Normalized edge length range: 2.0244 .. 0.129658
+Iteration 4: Normalized edge length range: 1.51826 .. 0.129658
+Final normalized edge length range: 1.44999 .. 0.129658
+Volume meshing complete.
+Node count: 82282.
+Element count: 440463.
+Mesh Statistics
+Node count: 82282
+Element count: 440463
+Minimum element volume: 3.87032
+Maximum element volume: 1.64285e+06
+Total model volume: 2.25e+09
+setUpwardAdjacencies = 0.31 sec
+interpolateExtrudedFaces = 0.01 sec
+interpolatePeriodicFaces = 0.00 sec
+addPeripheralFaces = 0.00 sec
+replicateMovingRegions = 0.00 sec
+splitFluidSolidInterfaces = 0.00 sec
+removeUnreferencedVertices = 0.00 sec
+Time to write model = 0.00 sec
+Time to write mesh = 0.25 sec
+Time to write GBI = 0.80 sec
+Time to free model entity memory = 0.00 sec
+Time to delete database = 0.14 sec

@@ -1,0 +1,10 @@
+<cfd_design_studies version="23.0.20220516" user_name="12471">
+ <design_study name="aaa" instance_id="id_not_defined" folder="C:/Users/12471/OneDrive/桌面/Drone Project/Drone CFD Testing/aaa" study_id="9e74ea0d-0d19-4771-9b09-3a865195c77a">
+  <design name="设计 1" launcher_type="CP_UNKNOWN" lock_status="false" model_id="Drone Airframe CFD v3.stl">
+   <analysis name="工况 1"/>
+  </design>
+  <design name="设计 1_1" launcher_type="CP_UNKNOWN" lock_status="false" model_id="Drone Airframe CFD v4.stl">
+   <analysis name="工况 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>

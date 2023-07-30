@@ -1,0 +1,41 @@
+[周六 7月 29 21:14:53 2023] Reading CPU information from SystemInfo.xml
+[周六 7月 29 21:14:53 2023] Processors: 1, Cores per processor: 8
+[周六 7月 29 21:14:53 2023] Requested cores: 0
+[周六 7月 29 21:14:53 2023] Using 9 ranks
+[周六 7月 29 21:14:53 2023] analysis path: C:\Users\12471\Downloads\aaa\设计 1\工况 1
+[周六 7月 29 21:14:53 2023] Listen on port 52556
+[周六 7月 29 21:14:53 2023] Email file: C:\ProgramData\Autodesk\CFD 2023\Analyze/job7/email.xml
+[周六 7月 29 21:14:53 2023] Start processing tasks
+[周六 7月 29 21:14:53 2023] Starting task: Start Messaging
+[周六 7月 29 21:14:53 2023] Task finished in 0.00 sec
+[周六 7月 29 21:14:53 2023] Starting task: Start Notifications
+[周六 7月 29 21:14:53 2023] Task finished in 0.00 sec
+[周六 7月 29 21:14:53 2023] Starting task: Run Job
+[周六 7月 29 21:14:53 2023] startJob
+[周六 7月 29 21:14:53 2023] Creating C:\ProgramData\Autodesk\CFD 2023\Analyze/job7/job.bat
+[周六 7月 29 21:14:53 2023] Command: cmd.exe /c job.bat
+[周六 7月 29 21:14:53 2023]  output:C:\ProgramData\Autodesk\CFD 2023\Analyze\job7>chcp 65001
+[周六 7月 29 21:14:53 2023]  output:Active code page: 65001
+[周六 7月 29 21:14:53 2023]  output:C:\ProgramData\Autodesk\CFD 2023\Analyze\job7>cd C:\Program Files\Autodesk\CFD 2023
+[周六 7月 29 21:14:53 2023]  output:C:\Program Files\Autodesk\CFD 2023>"C:\Program Files\Autodesk\CFD 2023/CFDMesher.exe" "C:\Users\12471\Downloads\aaa\设计 1\工况 1/job/job.json" -jobId=7 -cloudJobId=  -b -gui  -useJobFile  -port=
+[周六 7月 29 21:14:53 2023]  output:52556
+[周六 7月 29 21:14:53 2023]  output:Autodesk CFDMesher, version: 23.0.129
+[周六 7月 29 21:14:53 2023]  output:Analysis path = C:/Users/12471/Downloads/aaa/设计 1/工况 1/job
+[周六 7月 29 21:14:53 2023]  output:Analysis name = 工况 1
+[周六 7月 29 21:15:05 2023]  output:C:\Program Files\Autodesk\CFD 2023>set E=-1073741819
+[周六 7月 29 21:15:05 2023]  output:C:\Program Files\Autodesk\CFD 2023>IF -1073741819 NEQ 0 goto EOF
+[周六 7月 29 21:15:05 2023]  output:C:\Program Files\Autodesk\CFD 2023>exit -1073741819
+[周六 7月 29 21:15:05 2023] Job finished with exit code = -1073741819
+[周六 7月 29 21:15:05 2023] Creating mesher finished upload
+[周六 7月 29 21:15:05 2023] Processing mesher exited
+[周六 7月 29 21:15:05 2023] Task finished in 11.85 sec
+[周六 7月 29 21:15:05 2023] Starting task: Stop Notifications
+[周六 7月 29 21:15:05 2023] Stopping mail server
+[周六 7月 29 21:15:05 2023] Mail server has stopped
+[周六 7月 29 21:15:05 2023] Stopping mail server thread
+[周六 7月 29 21:15:05 2023] Mail server thread has stopped
+[周六 7月 29 21:15:05 2023] Task finished in 0.00 sec
+[周六 7月 29 21:15:05 2023] Starting task: Stop Messaging
+[周六 7月 29 21:15:05 2023] Stopping messaging
+[周六 7月 29 21:15:05 2023] Task finished in 0.00 sec
+[周六 7月 29 21:15:05 2023] Finished processing tasks in 11.85 sec

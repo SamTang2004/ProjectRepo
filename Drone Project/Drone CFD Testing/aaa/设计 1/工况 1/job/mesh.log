@@ -1,0 +1,37 @@
+Defining entity constraints...
+Nodal and facet constraints complete.
+Discrete model object containing 1923 nodes and 3838 facets successfully restored.
+Generating surface mesh for 7 of 7 model surfaces.
+Mesh size range: 14.0432 to 40.
+Surface meshing completed.
+Importing surface mesh...
+There were 7 surfaces specified at import.
+There were 1 parts specified at import.
+Imported model composed of 21382 nodes and 42736 facets.
+Import time: 0.229 seconds.
+Manifold test:
+Isolated facet count: 0.
+Indeterminant facet edges: 0.
+There were 0 nodes defining the trimming loop(s).
+Non-manifold facet count: 0.
+Manifold check time: 0.124 seconds.
+Imported model is well-connected.
+Imported model contains 3 unique volumes.
+Model successfully read and processed
+Instituting mesh sizes...
+Mesh sizes set.
+Instituting boundary layer mesh sizes...
+Boundary layer mesh sizes set.
+Generating volume mesh...
+Number of 3D Boundary Layers identified: 5
+Boundary Layer meshing
+Finding growth curves...
+Checking boundary growth curves...
+Checking intersecting layers...
+Edge triangulation
+Face triangulation
+Iteration 1: Normalized edge length range: 1.46943 .. 0.198715
+Final normalized edge length range: 1.44946 .. 0.201213
+Region triangulation
+Number of BL regions created = 325771
+Code: 1202 String: Volume mesh self intersection while meshing region 2 at (499.435, -0.020290599999999999, -948.15300000000002)

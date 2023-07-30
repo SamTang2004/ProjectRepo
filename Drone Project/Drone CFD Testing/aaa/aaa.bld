@@ -1,0 +1,523 @@
+<template_study>
+ <study_name>aaa</study_name>
+ <active_config></active_config>
+ <new_mode>1</new_mode>
+ <template_design>
+  <design_name>设计 1</design_name>
+  <config_name></config_name>
+  <cadfile_name>C:/Users/12471/Downloads\Drone Airframe CFD v3.stl</cadfile_name>
+  <config_update>0</config_update>
+  <cad_launcher>CP_UNKNOWN</cad_launcher>
+  <cad_model>CP_UNKNOWN</cad_model>
+  <length_unit>0</length_unit>
+  <cloned_from></cloned_from>
+  <template_scenario>
+   <scenario_name>工况 1</scenario_name>
+   <template_setting>
+    <setting_name>未知</setting_name>
+    <setting_type>7</setting_type>
+    <bcond>
+     <tID>-1</tID>
+     <iExtra>0</iExtra>
+     <bcVal>0</bcVal>
+     <bcXtr>0</bcXtr>
+     <bcAux>0</bcAux>
+     <bcCode>16</bcCode>
+     <attribs>0</attribs>
+     <vuStr>None</vuStr>
+     <xuStr>None</xuStr>
+     <vec11>0</vec11>
+     <vec12>0</vec12>
+     <vec13>0</vec13>
+     <vec21>1</vec21>
+     <vec22>0</vec22>
+     <vec23>0</vec23>
+     <tag_names>面 3~~</tag_names>
+    </bcond>
+   </template_setting>
+   <template_setting>
+    <setting_name>法向速度(50 m/s)</setting_name>
+    <setting_type>7</setting_type>
+    <bcond>
+     <tID>-1</tID>
+     <iExtra>0</iExtra>
+     <bcVal>50</bcVal>
+     <bcXtr>0</bcXtr>
+     <bcAux>0</bcAux>
+     <bcCode>4</bcCode>
+     <attribs>0</attribs>
+     <vuStr>m/s</vuStr>
+     <xuStr>None</xuStr>
+     <vec11>0</vec11>
+     <vec12>0</vec12>
+     <vec13>0</vec13>
+     <vec21>1</vec21>
+     <vec22>0</vec22>
+     <vec23>0</vec23>
+     <tag_names>面 4~~</tag_names>
+    </bcond>
+   </template_setting>
+   <template_setting>
+    <setting_name>2 Insulation (fiberglass)</setting_name>
+    <setting_type>8</setting_type>
+    <assigned_material>
+     <id>0</id>
+     <database>默认值</database>
+     <part_count>0</part_count>
+     <is_referenced>false</is_referenced>
+     <material type="solid">
+      <name>Insulation (fiberglass)</name>
+      <read_only>true</read_only>
+      <units>MKS</units>
+      <source>k, Rho, Cp sourced 12 November 2010 from http://www.electronics-cooling.com/2008/02/thermal-properties-of-building-materials/</source>
+      <property type="x_conductivity">
+       <property type="conductivity">
+        <variation type="constant">
+         <value units="w/m-k">0.04</value>
+        </variation>
+       </property>
+      </property>
+      <property type="y_conductivity">
+       <property type="conductivity">
+        <variation type="same_as_kxx"/>
+       </property>
+      </property>
+      <property type="z_conductivity">
+       <property type="conductivity">
+        <variation type="same_as_kxx"/>
+       </property>
+      </property>
+      <property type="density">
+       <variation type="constant">
+        <value units="kg/m3">150</value>
+       </variation>
+      </property>
+      <property type="specific_heat">
+       <variation type="constant">
+        <value units="j/kg-k">700</value>
+       </variation>
+      </property>
+      <property type="emissivity">
+       <variation type="constant">
+        <value>0.85</value>
+       </variation>
+      </property>
+      <property type="transmissivity">
+       <variation type="constant">
+        <value>0</value>
+       </variation>
+      </property>
+      <property type="resistivity">
+       <variation type="constant">
+        <value units="ohm-m">0</value>
+       </variation>
+      </property>
+      <property type="roughness">
+       <variation type="constant">
+        <value units="m">0</value>
+       </variation>
+      </property>
+      <color>255,255,127</color>
+     </material>
+     <material_environment reference_pressure="101325" use_external="yes" reference_temperature="293" temperature_units="kelvin" fixed_value="yes" pressure_units="pa"/>
+     <material_suppress>0</material_suppress>
+     <tag_names>体 1~~</tag_names>
+    </assigned_material>
+   </template_setting>
+   <template_setting>
+    <setting_name>3 Air</setting_name>
+    <setting_type>8</setting_type>
+    <assigned_material>
+     <id>0</id>
+     <database>默认值</database>
+     <part_count>0</part_count>
+     <is_referenced>false</is_referenced>
+     <material type="fluid">
+      <name>Air</name>
+      <read_only>true</read_only>
+      <units>MKS</units>
+      <source> Autodesk supplied material </source>
+      <property type="density">
+       <variation type="equation_of_state"/>
+      </property>
+      <property type="viscosity">
+       <variation type="constant">
+        <value units="pa-s">1.817e-05</value>
+       </variation>
+      </property>
+      <property type="conductivity">
+       <variation type="constant">
+        <value units="w/m-k">0.02563</value>
+       </variation>
+      </property>
+      <property type="specific_heat">
+       <variation type="constant">
+        <value units="j/kg-k">1004</value>
+       </variation>
+      </property>
+      <property type="compressibility">
+       <property type="ratio_specific_heats">
+        <variation type="constant">
+         <value>1.4</value>
+        </variation>
+       </property>
+      </property>
+      <property type="emissivity">
+       <variation type="constant">
+        <value>1</value>
+       </variation>
+      </property>
+      <property type="roughness">
+       <variation type="constant">
+        <value units="m">0</value>
+       </variation>
+      </property>
+      <property type="phase">
+       <variation type="phase_vapor">
+        <vapor_press units="pa">0</vapor_press>
+       </variation>
+      </property>
+      <color>197,255,255</color>
+      <gas_const units="m2/s2-K">287.05</gas_const>
+      <vapor_pressure units="Pa">0</vapor_pressure>
+      <phase>gas</phase>
+     </material>
+     <material_environment reference_pressure="101325" use_external="yes" reference_temperature="293" temperature_units="kelvin" fixed_value="yes" pressure_units="pa"/>
+     <material_suppress>0</material_suppress>
+     <tag_names>体 2~~</tag_names>
+    </assigned_material>
+   </template_setting>
+   <template_setting>
+    <setting_name>Iterations</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>8~~25</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Flow</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>1~~1</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Heat transfer</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>5~~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Compressible</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>2~~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Turbulence</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>3~~1~100~0.05~1</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Advection</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>4~~17</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Gravity</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>6~~0~0~0~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Radiation</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>7~~0</content_value>
+    </setting_content>
+   </template_setting>
+  </template_scenario>
+ </template_design>
+ <template_design>
+  <design_name>设计 1_1</design_name>
+  <config_name></config_name>
+  <cadfile_name>C:/Users/12471/Downloads\Drone Airframe CFD v4.stl</cadfile_name>
+  <config_update>0</config_update>
+  <cad_launcher>CP_UNKNOWN</cad_launcher>
+  <cad_model>CP_UNKNOWN</cad_model>
+  <length_unit>0</length_unit>
+  <cloned_from></cloned_from>
+  <template_scenario>
+   <scenario_name>工况 1</scenario_name>
+   <template_setting>
+    <setting_name>未知</setting_name>
+    <setting_type>7</setting_type>
+    <bcond>
+     <tID>-1</tID>
+     <iExtra>0</iExtra>
+     <bcVal>0</bcVal>
+     <bcXtr>0</bcXtr>
+     <bcAux>0</bcAux>
+     <bcCode>16</bcCode>
+     <attribs>0</attribs>
+     <vuStr>None</vuStr>
+     <xuStr>None</xuStr>
+     <vec11>0</vec11>
+     <vec12>0</vec12>
+     <vec13>0</vec13>
+     <vec21>1</vec21>
+     <vec22>0</vec22>
+     <vec23>0</vec23>
+     <tag_names>面 4~~</tag_names>
+    </bcond>
+   </template_setting>
+   <template_setting>
+    <setting_name>法向速度(50 m/s)</setting_name>
+    <setting_type>7</setting_type>
+    <bcond>
+     <tID>-1</tID>
+     <iExtra>0</iExtra>
+     <bcVal>50</bcVal>
+     <bcXtr>0</bcXtr>
+     <bcAux>0</bcAux>
+     <bcCode>4</bcCode>
+     <attribs>0</attribs>
+     <vuStr>m/s</vuStr>
+     <xuStr>None</xuStr>
+     <vec11>0</vec11>
+     <vec12>0</vec12>
+     <vec13>0</vec13>
+     <vec21>1</vec21>
+     <vec22>0</vec22>
+     <vec23>0</vec23>
+     <tag_names>面 2~~</tag_names>
+    </bcond>
+   </template_setting>
+   <template_setting>
+    <setting_name>2 Insulation (fiberglass)</setting_name>
+    <setting_type>8</setting_type>
+    <assigned_material>
+     <id>0</id>
+     <database>默认值</database>
+     <part_count>0</part_count>
+     <is_referenced>false</is_referenced>
+     <material type="solid">
+      <name>Insulation (fiberglass)</name>
+      <read_only>true</read_only>
+      <units>MKS</units>
+      <source>k, Rho, Cp sourced 12 November 2010 from http://www.electronics-cooling.com/2008/02/thermal-properties-of-building-materials/</source>
+      <property type="x_conductivity">
+       <property type="conductivity">
+        <variation type="constant">
+         <value units="w/m-k">0.04</value>
+        </variation>
+       </property>
+      </property>
+      <property type="y_conductivity">
+       <property type="conductivity">
+        <variation type="same_as_kxx"/>
+       </property>
+      </property>
+      <property type="z_conductivity">
+       <property type="conductivity">
+        <variation type="same_as_kxx"/>
+       </property>
+      </property>
+      <property type="density">
+       <variation type="constant">
+        <value units="kg/m3">150</value>
+       </variation>
+      </property>
+      <property type="specific_heat">
+       <variation type="constant">
+        <value units="j/kg-k">700</value>
+       </variation>
+      </property>
+      <property type="emissivity">
+       <variation type="constant">
+        <value>0.85</value>
+       </variation>
+      </property>
+      <property type="transmissivity">
+       <variation type="constant">
+        <value>0</value>
+       </variation>
+      </property>
+      <property type="resistivity">
+       <variation type="constant">
+        <value units="ohm-m">0</value>
+       </variation>
+      </property>
+      <property type="roughness">
+       <variation type="constant">
+        <value units="m">0</value>
+       </variation>
+      </property>
+      <color>255,255,127</color>
+     </material>
+     <material_environment reference_pressure="101325" use_external="yes" reference_temperature="293" temperature_units="kelvin" fixed_value="yes" pressure_units="pa"/>
+     <material_suppress>0</material_suppress>
+     <tag_names>体 1~~</tag_names>
+    </assigned_material>
+   </template_setting>
+   <template_setting>
+    <setting_name>3 Air</setting_name>
+    <setting_type>8</setting_type>
+    <assigned_material>
+     <id>0</id>
+     <database>默认值</database>
+     <part_count>0</part_count>
+     <is_referenced>false</is_referenced>
+     <material type="fluid">
+      <name>Air</name>
+      <read_only>true</read_only>
+      <units>MKS</units>
+      <source> Autodesk supplied material </source>
+      <property type="density">
+       <variation type="equation_of_state"/>
+      </property>
+      <property type="viscosity">
+       <variation type="constant">
+        <value units="pa-s">1.817e-05</value>
+       </variation>
+      </property>
+      <property type="conductivity">
+       <variation type="constant">
+        <value units="w/m-k">0.02563</value>
+       </variation>
+      </property>
+      <property type="specific_heat">
+       <variation type="constant">
+        <value units="j/kg-k">1004</value>
+       </variation>
+      </property>
+      <property type="compressibility">
+       <property type="ratio_specific_heats">
+        <variation type="constant">
+         <value>1.4</value>
+        </variation>
+       </property>
+      </property>
+      <property type="emissivity">
+       <variation type="constant">
+        <value>1</value>
+       </variation>
+      </property>
+      <property type="roughness">
+       <variation type="constant">
+        <value units="m">0</value>
+       </variation>
+      </property>
+      <property type="phase">
+       <variation type="phase_vapor">
+        <vapor_press units="pa">0</vapor_press>
+       </variation>
+      </property>
+      <color>197,255,255</color>
+      <gas_const units="m2/s2-K">287.05</gas_const>
+      <vapor_pressure units="Pa">0</vapor_pressure>
+      <phase>gas</phase>
+     </material>
+     <material_environment reference_pressure="101325" use_external="yes" reference_temperature="293" temperature_units="kelvin" fixed_value="yes" pressure_units="pa"/>
+     <material_suppress>0</material_suppress>
+     <tag_names>体 2~~</tag_names>
+    </assigned_material>
+   </template_setting>
+   <template_setting>
+    <setting_name>Iterations</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>8~~100</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Flow</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>1~~1</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Heat transfer</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>5~~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Compressible</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>2~~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Turbulence</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>3~~1~100~0.05~1</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Advection</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>4~~17</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Gravity</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>6~~0~0~0~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Radiation</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>7~~0</content_value>
+    </setting_content>
+   </template_setting>
+  </template_scenario>
+ </template_design>
+</template_study>
